@@ -4,10 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web del fin del mundo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: grid;
+            place-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            padding: 20px;
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .grid-container a {
+            text-decoration: none;
+            color: white;
+            background-color: #007acc;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-align: center;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+        .grid-container a:hover {
+            background-color: #005f99;
+        }
+    </style>
 </head>
 <body>
-    <a href="https://github.com/PauNavPit/repo-animacion/tree/master/" target="_blank">Visitar repositorio de Master</a>
-    <a href="https://github.com/PauNavPit/repo-animacion/tree/main/" target="_blank">Visitar repositorio Main</a>
-
+    <div class="grid-container">
+        <a href="https://github.com/PauNavPit/repo-animacion/tree/master/" target="_blank">Visitar repositorio Master</a>
+        <a href="https://github.com/PauNavPit/repo-animacion/tree/main/" target="_blank">Visitar repositorio Main</a>
+    </div>
 </body>
 </html>
+
